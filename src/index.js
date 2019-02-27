@@ -1,5 +1,5 @@
-import       thankYou from 'examples/modern';
 
-export const modern = thankYou;
+export * from './constants/commands';
+export * from './constants/messages';
+export * from './api';
 
-console.log(thankYou());

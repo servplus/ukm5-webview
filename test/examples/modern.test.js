@@ -13,5 +13,6 @@ const message =
   '\n';
 
 test('Message on package usage', () => {
+  // eslint-disable-next-line no-undef
   expect(modern()).toBe(message);
 });
